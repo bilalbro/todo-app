@@ -2,6 +2,8 @@
 
 A simple to-do application, built using React, vanilla CSS and rollup.js.
 
+![Asset 4](https://user-images.githubusercontent.com/98707204/203621664-7cc4c14d-94b3-4b6e-b46f-2fed972bb2db.png)
+
 ## Motivation
 As we all know, React is a really really useful UI library for JavaScript. Actually, it's more that *just* a library — it's a new era of building web applications. At the same time, getting used to the programming paradigm of React takes a little bit of time, even if one's a highly proficient JavaScript developer. It puts forward a completely new, and arguably much better, way of thinking about apps.
 
