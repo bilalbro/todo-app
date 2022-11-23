@@ -19,7 +19,7 @@ For the styling, I used **vanilla CSS**.
 
 Yeah I know, it might seem very boring to be using vanilla CSS these days, but my end goal wasn't to *just use vanilla CSS*, but to instead *comprehend its shortcomings* when it comes to building applications in React.
 
-The thing is that I've recently got to know of the superb potential of CSS-in-JS and so, before diving into it, I really want to convice myself of the problems of vanilla CSS when used in relation to React so that I can truly appreciate the power of CSS-in-JS. As it turns out, there are quite a handful of problems associated with writing CSS separately (even if that means writing preprocessed CSS, for e.g. Sass). I'll talk about them later on, in detail, in an article on CodeGuage's Medium blog.
+The thing is that I've recently got to know of the superb potential of CSS-in-JS and so, before diving into it, I really want to convice myself of the problems of vanilla CSS when used in relation to React so that I can truly appreciate the power of CSS-in-JS. As it turns out, there are quite a handful of problems associated with writing CSS separately (even if that means writing preprocessed CSS, for e.g. Sass). I'll talk about them later on, in detail, in an article on [CodeGuage's Medium blog](https://medium.com/@codeguage).
 
 ### 3. rollup.js
 For the bundling, I used **rollup.js**.
