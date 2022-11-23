@@ -5,6 +5,7 @@ import TodoList from './TodoList';
 import TaskManager from './task-manager';
 import {classNames} from './utils';
 
+const UPDATE_TASKS_DELAY = 300;
 const taskManager = new TaskManager();
 
 function useTasks() {
@@ -29,7 +30,7 @@ const App = () => {
       setTimeout(function() {
          addingTask.current = false;
          updateTasks();
-      }, 300);
+      }, UPDATE_TASKS_DELAY);
    }
 
    function onRemoveTask(taskId) {
@@ -45,7 +46,7 @@ const App = () => {
             removeIndex.current = Infinity;
             taskManager.removeTask(taskId);
             updateTasks();
-         }, 300);
+         }, UPDATE_TASKS_DELAY);
 
          updateTasks();
       }
@@ -69,7 +70,7 @@ const App = () => {
          clearingTasks.current = false;
          taskManager.clearTasks();
          updateTasks();
-      }, 300);
+      }, UPDATE_TASKS_DELAY);
    }
 
    return <>
