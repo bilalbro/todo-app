@@ -14,7 +14,7 @@ export default {
       nodeResolve(),
       babel({
          babelHelpers: 'bundled',
-         compact: false,
+         compact: true,
          exclude: 'node_modules/**'
       }),
       commonjs(),
@@ -22,6 +22,6 @@ export default {
          preventAssignment: false,
          'process.env.NODE_ENV': "'production'"
       }),
-      // terser()
+      terser()
    ]
 }
