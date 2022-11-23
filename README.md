@@ -31,6 +31,8 @@ Webpack is everywhere. We all know of it. It's great. But for me, I always want 
 
 Let's now talk a little about this to-do application...
 
+Regarding the naming of files in the `src` directory, I took a very simple approach. All files that export React components (which themselves are in PascalCase) are in PascalCase as well. The rest of them (such as `index.js`, `utils.js`) don't export back a React component and thus I name them in lower-kebab-case, to be able to easily distinguish between the nature of different files. 
+
 Since the application didn't have a very complex component nesting, I went with the most basic way of managing state in React applications, i.e. keeping the state in the root of the application and then passing it down via props.
 
 For storing the data of the app, which I refer to as ***tasks***, what else could've I thought of apart from... you guessed it — `localStorage` 😊.
