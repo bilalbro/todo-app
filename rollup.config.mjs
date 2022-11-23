@@ -6,11 +6,8 @@ import terser from '@rollup/plugin-terser';
 
 export default {
    input: 'src/index.js',
-   // external: [
-   //    'react', 'react-dom'
-   // ],
    output: {
-      file: 'bundle.min.js',
+      file: 'dist/bundle.min.js',
       format: 'iife'
    },
    plugins: [
