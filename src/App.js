@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { FaTimes } from 'react-icons/fa'
 import AddTaskForm from './AddTaskForm';
-import TodoList from './TodoList';
+import TaskList from './TaskList';
 import TaskManager from './task-manager';
 import {classNames} from './utils';
 
@@ -78,7 +78,7 @@ const App = () => {
       <footer>Made by <a href="https://github.com/bilalbro">@bilalbro</a> using React, Vanilla CSS, and Rollup.js</footer>
       <AddTaskForm onAddTask={onAddTask} />
 
-      <TodoList removeIndex={removeIndex.current} addingTask={addingTask.current}
+      <TaskList removeIndex={removeIndex.current} addingTask={addingTask.current}
          clearingTasks={clearingTasks.current} onRemoveTask={onRemoveTask}
          onTaskCompletionToggle={onTaskCompletionToggle} onUpdateTask={onUpdateTask}
          tasks={tasks} />

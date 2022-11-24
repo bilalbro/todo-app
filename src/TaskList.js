@@ -1,7 +1,7 @@
 import React from 'react';
 import Task from './Task';
 
-const TodoList = ({
+const TaskList = ({
    tasks,
    onRemoveTask,
    onUpdateTask,
@@ -24,4 +24,4 @@ const TodoList = ({
    </>
 }
 
-export default TodoList;
+export default TaskList;

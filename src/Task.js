@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FaPencilAlt, FaTrash, FaCheck } from 'react-icons/fa'
 import InputCheckbox from './InputCheckbox';
 import {classNames} from './utils';
@@ -76,5 +76,4 @@ const Task = ({
    );
 }
 
-const PureTask = memo(Task);
-export default PureTask;
+export default Task;
