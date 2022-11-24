@@ -35,6 +35,8 @@ Regarding the naming of files in the `src` directory, I took a very simple appro
 
 Since the application didn't have a very complex component nesting, I went with the most basic way of managing state in React applications, i.e. keeping the state in the root of the application and then passing it down via props.
 
+I could've gone with another state-management strategy as well, such as reducer + context, but my goal was once again to explore about the good things and the bad things of using useState() alone. 
+
 For storing the data of the app, which I refer to as ***tasks***, what else could've I thought of apart from... you guessed it — `localStorage` 😊.
 
 Moving on, now since there were a lot of operations to be done on this `localStorage` data, I decided to create a separate JS class `TaskManager` to cater to all of them. As you can explore the `task-manager.js` file in the `src` folder, `TaskManager` defines a handful of methods so that I can easily query the app's data in `localStorage`. *Abstraction, remember?*
